@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './component'
+import Field from './field'
 
-ReactDOM.render(<Component value="Teste" />, document.getElementById('app'))
+ReactDOM.render(<Field initialValue='Henrique' />, document.getElementById('app'))
